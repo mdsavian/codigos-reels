@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    background: #f3f7fa;
+  }
+  
+  button {
+    position: relative;    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 56px;
+    width: 200px;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 30px;    
+    color: #f3f7fa;
+    background: #0927eb;
+    cursor: pointer;
+  }
+  
+  .text {
+    position: absolute;
+    left: 64px;
+    display: block;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  .icon {
+    font-size: 30px;
+  }
+  
+  button.enviando .text {
+    animation: buttonAnimation 5s both;
+  }
+  
+  button.enviando .icon {
+    animation: buttonAnimation 5s both;
+  }
+  
+
+  @keyframes buttonAnimation {
+    0%,
+    20% {
+      translate: 0 0;
+    }
+    30% {
+      translate: 0 35px;
+    }    
+    35% {
+      translate: 300px 70px;
+    }
+    45% {
+      translate: 300px -100px;
+    }
+    47% {
+      translate: 300px -50px;
+    }        
+    47.1% {
+      translate: 0 -30px;
+    }        
+    48.5% {
+      translate: 0 -20px;
+    }
+    49% {
+      translate: 0 -10px;
+    }
+    51% {
+      translate: 0 0px;
+    }        
+    100% {
+      translate: 0 0;
+    }
+  }
+  
+  
