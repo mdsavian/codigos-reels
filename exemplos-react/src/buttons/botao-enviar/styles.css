@@ -52,36 +52,28 @@
 
   @keyframes buttonAnimation {
     0%,
-    20% {
+    30% {
       translate: 0 0;
     }
-    30% {
-      translate: 0 35px;
-    }    
-    35% {
-      translate: 300px 70px;
+    39.9% {
+      translate: 0 100px;
+    }
+    40% {
+      translate: 300px 100px;
+    }
+    40.1% {
+      translate: 300px -60px;
+    }
+    40.2% {
+      translate: 0px -60px;
     }
     45% {
-      translate: 300px -100px;
+      translate: 0px 0;
     }
-    47% {
-      translate: 300px -50px;
-    }        
-    47.1% {
-      translate: 0 -30px;
-    }        
-    48.5% {
-      translate: 0 -20px;
+    95% {
+      translate: 0px 0;
     }
-    49% {
-      translate: 0 -15px;
-    }
-    51% {
-      translate: 0 0px;
-    }        
     100% {
       translate: 0 0;
     }
   }
-  
-  
