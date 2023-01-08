@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #f3f7fa;
+}
+
+button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 56px;
+  width: 56px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 30px;
+  color: #f3f7fa;
+  background: #0927eb;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  left: 64px;
+  display: block;
+  white-space: nowrap;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+button.adicionando {
+  animation: iconAnimation 4s both;
+}
+
+@keyframes iconAnimation {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  10% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
