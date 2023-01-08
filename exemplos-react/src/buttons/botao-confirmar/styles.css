@@ -20,7 +20,7 @@ button {
   gap: 12px;
   height: 56px;
   width: 200px;
-  padding: 0 18px;
+  padding: 0 24px;
   border: 0;
   border-radius: 30px;
   color: #f3f7fa;
@@ -38,21 +38,70 @@ button {
 }
 
 .icon {
-  font-size: 40px;
+  font-size: 30px;
+}
+
+button.confirmando .text {
+  animation: textAnimation 5s both;
 }
 
 button.confirmando .icon {
-  animation: iconAnimation 3s both;
+  animation: iconAnimation 5s both;
+}
+
+@keyframes textAnimation {
+  0%,
+  30% {
+    translate: 0 0;
+  }
+  39.9% {
+    translate: 0 100px;
+  }
+  40% {
+    translate: 300px 100px;
+  }
+  40.1% {
+    translate: 300px -60px;
+  }
+  40.2% {
+    translate: 0px -60px;
+  }
+  45% {
+    translate: 0px 0;
+  }
+  95% {
+    translate: 0px 0;
+  }
+  100% {
+    translate: 0 0;
+  }
 }
 
 @keyframes iconAnimation {
-  0% {
-    transform: scale(1) rotateZ(0);
+  0%,
+  5% {
+    translate: 0 0;
   }
-  10% {
-    transform: scale(1.5);
+  20%,
+  30% {
+    translate: -250px 0;
+  }
+  40% {
+    translate: 200px 0;
+    scale: 2;
+  }
+  40.1% {
+    translate: 200px -60px;
+    scale: 1;
+  }
+  40.2% {
+    translate: 0px -60px;
+  }
+  45%,
+  95% {
+    translate: 0px 0;
   }
   100% {
-    transform: scale(1) rotateZ(360deg);
+    translate: 0 0;
   }
 }

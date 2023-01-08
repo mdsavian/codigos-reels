@@ -19,7 +19,7 @@ const BotaoConfirmar: React.FC = () => {
   };
   return (
     <button onClick={handleClick} className={estaConfirmando || foiConfirmado ? "confirmando" : ""}>
-      <span className="icon material-symbols-outlined">done</span>
+      <span className="icon material-symbols-outlined">arrow_right_alt</span>
 
       <span className="text">
         {estaConfirmando ? "Confirmando..." : foiConfirmado ? "Confirmado" : "Confirmar"}
