@@ -42,7 +42,7 @@ button {
 }
 
 button.adicionando {
-  animation: iconAnimation 4s both;
+  animation: iconAnimation 2s both;
 }
 
 @keyframes iconAnimation {
