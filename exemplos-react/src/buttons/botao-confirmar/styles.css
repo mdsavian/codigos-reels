@@ -42,10 +42,10 @@ button {
 }
 
 button.confirmando .icon {
-  animation: rotate-scale-up 3s both;
+  animation: icon-animation 3s both;
 }
 
-@keyframes rotate-scale-up {
+@keyframes icon-animation {
   0% {
     transform: scale(1) rotateZ(0);
   }
