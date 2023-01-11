@@ -1,15 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
 :root {
   --color-primary: #76b9f0;
-}
-
-html,
-body,
-.wrapper {
-  height: 100%;
 }
 
 body {
@@ -30,14 +20,6 @@ body {
   width: 100%;
 }
 
-.navbar h1 {
-  display: block;
-  flex: 2 1 auto;
-  font-weight: 500;
-  font-size: 16px;
-  margin: 0 0 0 16px;
-}
-
 .tabs {
   flex: 1 1 auto;
   scale: 1;
@@ -45,12 +27,6 @@ body {
 
 .tabs > input {
   display: none;
-}
-
-h2 {
-  margin: 0 0 10px;
-  font-size: 18px;
-  font-weight: 400;
 }
 
 label {
