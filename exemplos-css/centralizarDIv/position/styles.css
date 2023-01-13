@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+
+.div-pai {
+    background-color: #061bb0;
+    height:100%;
+    position: relative;
+}
+
+.div-filho {
+    background-color: #F3F7FA;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
