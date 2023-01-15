@@ -1,0 +1,20 @@
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    background: #f3f7fa;
+  }
+  
+  .text {
+    color: #0927eb;
+    position: absolute;
+    display: block;    
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+ 

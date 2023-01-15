@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+<div>
+  <div>
+    <p
+      class="text"
+    >
+       
+      2022
+       
+    </p>
+  </div>
+</div>
+`;
