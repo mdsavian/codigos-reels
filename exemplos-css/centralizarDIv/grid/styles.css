@@ -4,12 +4,9 @@ body {
 }
 
 
-.div-pai {
-    background-color: #061bb0;
-    height:100%;
+.div {
     display: grid;
-    place-items: center;
-    
+    place-items: center;    
 }
 
 .div-filho {

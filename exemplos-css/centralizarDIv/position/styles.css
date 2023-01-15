@@ -4,16 +4,11 @@ body {
 }
 
 
-.div-pai {
-    background-color: #061bb0;
-    height:100%;
+.div-pai {    
     position: relative;
 }
 
-.div-filho {
-    background-color: #F3F7FA;
-    height:100px;
-    width:100px;
+.div {
     position: absolute;
     top: 50%;
     left: 50%;

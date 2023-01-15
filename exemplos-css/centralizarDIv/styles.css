@@ -15,7 +15,6 @@ body {
 
 .div-filho {
     background-color: #F3F7FA;
-    position: absolute;
     height:100px;
     width:100px;    
 }

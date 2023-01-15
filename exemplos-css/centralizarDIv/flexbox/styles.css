@@ -4,18 +4,14 @@ body {
 }
 
 
-.div-pai {
-    background-color: #061bb0;    
-    height:100%;
+.div {    
     display:flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .div-filho {
-    background-color: #F3F7FA;
-    position: absolute;
+    background-color: #F3F7FA;    
     height:100px;
     width:100px;    
 }
