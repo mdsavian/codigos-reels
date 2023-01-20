@@ -1,27 +1,34 @@
 import React from "react"
 import "./styles.css"
+
 const List: React.FC = () => {
 
-    const items = [{ id: "9ef5d7q", name: "coca cola", quantidade: 12 }, { id: "9ef48ea", name: "pepsi", quantidade: 5 }, { id: "9efetgh", name: "fanta", quantidade: 10 }]
+    const produtos = [
+        { id: "9ef5d7q", nome: "coca cola", quantidade: 12 },
+        { id: "9ef48ea", nome: "pepsi", quantidade: 5 },
+        { id: "9efetgh", nome: "fanta", quantidade: 10 }]
 
-    const listItems = items.map(item => <ListItem key={item.id} name={item.name} quantidade={item.quantidade} />)
+    const listaProdutos = produtos.map(item =>
+        <ListItem key={item.id}
+            nome={item.nome}
+            quantidade={item.quantidade} />)
 
     return (
         <ul>
-            {listItems}
-        </ul>
+            {listaProdutos}
+            </ul>
     )
 }
 
 
 interface Props {
-    name: string
+    nome: string
     quantidade: number
 }
 
-const ListItem: React.FC<Props> = ({ name, quantidade }: Props) => {
+const ListItem: React.FC<Props> = ({ nome, quantidade }: Props) => {
     return <li className="listItem">
-        {name} - Qtd: {quantidade}
+        {nome} - Qtd: {quantidade}
     </li>
 }
 
