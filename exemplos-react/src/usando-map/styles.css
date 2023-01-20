@@ -1,0 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
+.listItem {
+  text-align: start;
+}
