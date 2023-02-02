@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+
+input:checked + p{  
+  background: green;  
+}
+
+ input:not(:checked) + p{
+  background: red;
+} 
