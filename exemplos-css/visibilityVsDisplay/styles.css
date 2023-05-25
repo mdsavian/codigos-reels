@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  background-color: white;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+}
