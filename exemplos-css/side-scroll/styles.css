@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  margin-top: 100px;
+  background-color: #76b9f0;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+  overflow-x: auto;
+  width: 95%;
+  scroll-snap-type: x mandatory;
+
+}
+
+.container div {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 300px;
+  scroll-snap-align: start
+}
