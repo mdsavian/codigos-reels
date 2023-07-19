@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  margin-top: 100px;
+
+
+}
+
+div {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  margin: 20px auto
+}
+
+.div-1 {
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  /* border-block: 5px solid green; */
+
+}
+
+.div-2 {
+  border-left: 5px dashed blue;
+  border-right: 5px dashed blue;
+  /* border-inline: 5px dashed green; */
+}
