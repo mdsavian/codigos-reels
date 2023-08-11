@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+    margin-top: 200px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    mix-blend-mode: multiply;
+}
